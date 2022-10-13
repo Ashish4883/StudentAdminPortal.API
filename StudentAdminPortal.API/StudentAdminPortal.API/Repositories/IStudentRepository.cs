@@ -11,6 +11,8 @@ namespace StudentAdminPortal.API.Repositories
         //List<Student> GetStudents();
 
         Task<List<Student>> GetStudentsAsync();
+        Task<Student> GetStudentAsync(Guid studentId);
+
 
     }
 }
